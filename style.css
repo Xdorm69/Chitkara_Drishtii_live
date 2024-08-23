@@ -147,11 +147,23 @@ header{
     width: 100%;
     z-index: 0;
 }
+.ham{
+    display: none;
+}
+.nav{
+    display: none;
+}
 @media only screen and (max-width:391px) {
     .header{
         width: 120px;
         background-color: red;
         height: 10px;
+    }
+    .ham{
+        display: unset;
+    }
+    .nav{
+        display: unset;
     }
     .head_left{
         width: 350px;
